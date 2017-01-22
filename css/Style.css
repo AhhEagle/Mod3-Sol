@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+  background-color: #008000;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img{
+  background: url('../images/restaurant-logo_large.png');
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: 'lora' , serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-left: -30px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span{
+  font-size: 1.8em;
+}
+.jumbotron{
+  height: 1000px;
+  color: #000000;
+}
+#main-content{
+  box-sizing: border-box;
+}
+.text-center{
+  color: #000000;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  /* End Header */
+
+  /* Home Page */
+  
+
+}
